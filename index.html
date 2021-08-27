@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="webgl.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"
+      integrity="sha512-zhHQR0/H5SEBL3Wn6yYSaTTZej12z0hVZKOv3TwCUXT1z5qeqGcXJLLrbERYRScEDDpYIJhPC1fk31gqR783iQ=="
+      crossorigin="anonymous" defer>
+    </script>
+    <script src="tetris-logic.js" defer></script>
+    <script src="tetris.js" defer></script>
+  </head>
+
+  <body>
+    <h3>Lines cleared:<span id="linesCleared">0</span></h3>
+    <canvas id="glcanvas" width="400" height="800"></canvas>
+  </body>
+</html>
